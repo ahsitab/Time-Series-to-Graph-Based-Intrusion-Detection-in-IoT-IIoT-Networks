@@ -1,0 +1,16 @@
+# Ignore large data files and datasets
+*.csv
+*.pdf
+Training and Testing Sets/
+
+# Ignore Python/Jupyter temporary files
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Keep notebooks, scripts, and plots
+!*.ipynb
+!*.py
+!*.png
+!README.md
+!.gitignore
